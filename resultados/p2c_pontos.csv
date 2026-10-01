@@ -1,0 +1,7 @@
+ponto,det_formula,det_numpy,newton
+[ 0.  0.  0. 70.],-0.0,0.0,LinAlgError: Singular matrix
+[ 0.   0.   0.1 70. ],-0.0,0.0,LinAlgError: Singular matrix
+[ 0.2  0.   0.  50. ],-0.0,0.0,LinAlgError: Singular matrix
+[ 0.1  0.1  0.  70. ],-65622.65854944482,-65622.65854944476,converge (7 it.)
+[1.e-03 1.e-03 1.e-03 7.e+01],-39.766217484333616,-39.76621748433362,converge (11 it.)
+[ 1.e-01  1.e-01 -5.e-02  7.e+01],-231642.41669639054,-231642.4166963903,converge (5 it.)

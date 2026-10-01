@@ -1,0 +1,5 @@
+numpy>=1.24
+matplotlib>=3.7
+# scipy e usado so na conferencia final da parte 2 (fsolve); sem ele o
+# script roda e pula essa conferencia
+scipy>=1.10

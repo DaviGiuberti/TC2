@@ -1,0 +1,12 @@
+\begin{tabular}{lrrrl}
+\toprule
+Ponto $x^{(0)}$ & $\det J$ (f\'ormula) & $\det J$ (\texttt{numpy}) & $\|s^{(0)}\|_\infty$ & Newton \\
+\midrule
+$(0;\,0;\,0;\,70)$ & \num{0} & \num{0} &  & \texttt{LinAlgError} \\
+$(0;\,0;\,0{,}1;\,70)$ & \num{0} & \num{0} &  & \texttt{LinAlgError} \\
+$(0{,}2;\,0;\,0;\,50)$ & \num{0} & \num{0} &  & \texttt{LinAlgError} \\
+$(0{,}1;\,0{,}1;\,0;\,70)$ & \num{-6.56e+04} & \num{-6.56e+04} & \num{1.0e+01} & converge em 7 it. \\
+$(10^{-3};\,10^{-3};\,10^{-3};\,70)$ & \num{-3.98e+01} & \num{-3.98e+01} & \num{1.9e+01} & converge em 11 it. \\
+$x^{(0)}$ do item (b) & \num{-2.32e+05} & \num{-2.32e+05} & \num{4.3e+00} & converge em 5 it. \\
+\bottomrule
+\end{tabular}

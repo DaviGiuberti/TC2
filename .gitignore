@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+relatorio/*.aux
+relatorio/*.log
+relatorio/*.fls
+relatorio/*.fdb_latexmk
+relatorio/*.out
+relatorio/*.toc
+relatorio/*.synctex.gz
